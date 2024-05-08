@@ -1,0 +1,325 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ul,ol,li{
+    list-style: none;
+}
+body {
+    color: #333;
+    font-size: 15px;
+    font-family: Arial, "Microsoft YaHei", "\u5b8b\u4f53", Tahoma, Geneva, sans-serif;
+    line-height: 1;
+}
+div {
+    display: block;
+    unicode-bidi: isolate;
+}
+.top{
+    width: 100%;
+    background: #105fa5;
+}
+.wrapper {
+    margin: 0 auto;
+    width: 100%;
+}
+.head-inner{
+    margin: 0 auto;
+    max-width: 1100px;
+    position: relative;
+    min-height: 116px;
+    background: #105fa5 url(/哈理工静态官网/img/Basic_images/heabd.jpg) no-repeat center bottom;
+}
+.head-clearfix{
+    display: block;
+}
+.headleft{
+    position: relative;
+    width: 708px;
+    height: 105px;
+    display: inline-block;
+}
+.logo{
+    position: relative;
+    float: left;
+    padding-top: 10px;
+}
+a {
+    color: #3b3b3b;
+    text-decoration: none;
+    font-family: "微软雅黑";
+    transition: all .4s ease-in-out;
+}
+img{
+    vertical-align: top;
+}
+.headright{
+    float: right;
+    margin-top: 45px;
+    width: 217px;
+}
+.old_site{
+    float: right;
+    margin-top: -25px;
+}
+.old_site ul{
+    float: right;
+}
+.flank{
+    display: block;
+}
+.old_site ul li.link1{
+    float: left;
+}
+.old_site ul li.link1 a{
+    color: #fff;
+    font-size: 12px;
+    line-height: 26px;
+}
+li{
+    list-style: none;
+    list-style-position: initial;
+    list-style-image: initial;
+    list-style-type: none;
+}
+.search_box{
+    float: left;
+    width: 156px;
+    text-align: right;
+    margin-top: 5px;
+}
+.search_clearfix{
+    position: absolute;
+    border: 1px solid #d0d0d0;
+}
+.search_input{
+    margin-right: 40px;
+    margin-left: 4px;
+}
+.search_title{
+    padding: 4px 0;
+    width: 100%;
+    height: 16px;
+    outline: 0;
+    border: 0;
+    background: 0 0;
+    color: #fff;
+    font-size: 12px;
+    line-height: 16px;
+    opacity: .6;
+    font-family: 微软雅黑;
+}
+.search_btn{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 32px;
+    height: 24px;
+}
+.search_submit{
+    width: 32px;
+    height: 24px;
+    outline: 0;
+    border: 0;
+    background: url(/哈理工静态官网/img/Basic_images/sous.png) no-repeat center;
+    cursor: pointer;
+}
+#nav {
+    border-bottom: 5px solid #d6bd88;
+    background: #105fa5 url(/哈理工静态官网/img/Basic_images/navbd.jpg) no-repeat center;
+}
+.hust-nav{
+    border-bottom: 5px solid #d6bd88;
+    background: #105fa5 url(images/navbd.jpg) no-repeat center;
+    margin: 0 auto;
+    width: 100%;
+}
+.nav-inner{
+    border-top: 1px solid #3977ae;
+    margin: 0 auto;
+    max-width: 1100px;
+    display: block;
+}
+.nav-panel{
+    height: 45px;
+}
+.nav-window{
+    height: 45px;
+}
+.wp-menu{
+    margin: 0 auto;
+}
+.wp-menu .menu-item.i1 {
+    background: 0 0;
+}
+.wp-menu .menu-item {
+    position: relative;
+    /* 左浮动，让他们横排 */
+    float: left;
+    display: inline-block;
+    /* 对齐方式，水平居中 */
+    text-align: center;
+}
+
+.menu-item a.menu-link {
+    /* 内联级方式显示（显示为menu-link的水平显示） */
+    display: block;
+    min-width: 100px;
+    color: #fffefe;
+    text-align: center;
+    font-size: 16px;
+    line-height: 42px;
+    width: 100%;
+}
+/* 鼠标悬浮效果 */
+/* .menu-item a.menu-link:hover{
+    background-color: #1384e2;
+    color: #eee !important ;
+    text-decoration: none;
+} */
+.wp-menu .menu-item a:hover,.wp-menu .menu-item:hover a.menu-link {
+    background-color: #1384e2;
+    color: #eee !important ;
+    text-decoration: none;
+    display: block;
+}
+/* 下拉菜单 */
+.sub-menu{
+    position: absolute;
+    top: 42px;
+    left: 0;
+    z-index: 100;
+    display: none;
+    min-width: 100%;
+    background: #fff;
+   
+}
+/* 鼠标悬浮到导航时，下拉显示 */
+.menu-item:hover .sub-menu{
+    display: block;
+}
+
+.sub-item{
+    min-width: 100%;
+    display: block;
+    padding: 0 0px;
+    height: 40px;
+    background: 0 0;
+    color: #000;
+    text-align: center;
+    font-size:10px;
+    line-height: 40px;
+}
+/* .sub-menu .sub-item a {
+    display: block;
+    padding: 0 17px;
+    height: 40px;
+    background: 0 0;
+    color: #000;
+    text-align: center;
+    font-size: 14px;
+    line-height: 40px;
+} */
+
+.scroll_wrapper{
+    position: relative;
+    height: 435px;
+    min-width: 1208px auto;
+    background-image: url(/哈理工静态官网/img/Basic_images/banbd.jpg);
+    background-position-x: center;
+    background-position-y: center;
+}
+.scroll-inner{
+    margin:0 auto;
+    position: relative;
+    width: 1100px;
+    height: 435px;
+    max-width: 100%;
+    text-align: center;
+    display: block;
+}
+.scroll-banner{
+    display: block;
+    background-position: center;
+    position: relative;
+    font-family: '\5b8b\4f53'
+}
+
+.bigbox{
+    width: 1100px;
+    height: 435px;
+    position: relative;
+    overflow: hidden;
+}
+.imgall{
+    width: 1100px;
+    height: 435px;
+    font-size: 0;
+    transform: translateX(0);
+    transition: all 0.4s;
+    display: flex;
+}
+.imgall img{
+    width: 1100px;
+    height: 435px;
+}
+.jiantouone{
+    width: 50px;
+    height: 60px;
+    background-color: rgb(79, 79, 79);
+    position: absolute;
+    top: calc(50% - 30px);
+    left: -60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0 6px 6px 0;
+    transition: all 0.2s;
+}
+.jiantouone>span{
+    color: white;    
+}
+.jiantoutwo{
+    width: 50px;
+    height: 60px;
+    background-color: rgb(79, 79, 79);
+    position: absolute;
+    top: calc(50% - 30px);
+    right: -60px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px 0 0 6px;
+    transition: all 0.2s; 
+}
+.jiantoutwo>span{
+    color: white;  
+}
+/* .yuan{
+    width: 110px;
+    height: 20px;
+    position: absolute;
+    left: calc(50% - 55px);
+    bottom: 10px;
+}
+.yuan div{
+    width: 14px;
+    height: 14px;
+    border-radius: 7px;
+    background-color: #999;
+    float: left;
+    margin: 0 2px;
+}
+.yuan div:first-child{
+    background-color: blueviolet;
+} */
+.imgall:hover{
+    animation-play-state: paused;
+    cursor: pointer;
+}
+.bigbox:hover .jiantouone{
+    left: 0;
+}
+.bigbox:hover .jiantoutwo{
+    right: 0;
+}
